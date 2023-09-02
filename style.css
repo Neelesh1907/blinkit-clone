@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styling nav-bar */
+
+.blink-it-navbar{
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position:sticky;
+    top: 0px;
+    height: 86px;
+    background-color: white;
+    box-sizing: border-box;
+    z-index: 50;
+    justify-content: space-between;
+}
+.vertical-line{
+    border-left: 1px solid rgb(238, 238, 238);
+    height: 100%;
+}
+.location>p{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.search-bar{
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    width: 40vw;
+}
+.search-bar>input{
+    border: none;
+    width: 95%;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
+.search-bar>input:focus{
+    outline:none;
+}
+
+/* styling my-scrollable-div */
+
+.my-scrollable-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    overflow-x: auto;
+    width: 92vw;
+}
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+.list>div{
+    display: inline-block;
+    margin-right: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* styling my-categories */
+
+.my-categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+    margin-inline: auto;
+}
+
+/* styling my-category-div */
+
+.my-category-div{
+    width: 90vw;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+.my-category-div>h1{
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-family: Okra-Medium;
+    font-weight: 600;
+    line-height: 32px;
+}
+.my-card{
+    width: 190px;
+    box-sizing: border-box;
+    position: relative;
+}
+.time-taken{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding: 1px 3px;
+}
+.product-name{
+    color: rgb(31, 31, 31);
+    font-weight: 700;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.product-info{
+    color: #666666;
+    font-size: 11px;
+}
+.product-price{
+    color: rgb(31, 31, 31);
+    font-weight: 700;
+    font-size: 12px;
+}
+.product-btn{
+    border: 1px solid green;
+    border-radius: 6px;
+    background-color: rgb(247, 255, 249);
+    color: rgb(49, 134, 22);
+    width: 66px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+.product-old-price{
+    font-size: 11px;
+    text-decoration: line-through;
+    color: #666666;
+}
+.discount>svg{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.offer{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.my-category-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 20px;
+    overflow-x: auto;
+    width: 92vw;
+}
+.card-list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.card-list>div{
+    /* display: inline-block; */
+    margin-right: 10px;
+    min-width: 190px;
+}
+
+/* styling my-footer */
+
+.my-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    width: 90vw;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+td{
+    padding: 3px 20px;
+    font-size: 14px;
+    color: #666666;
+    cursor: pointer;
+}
+th>{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 24px 0px;
+}
+.table-2{
+    flex: 4;
+}
+.table-1{
+    flex: 2;
+}
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row-2-col-1{
+    width: 30vw;
+    color: #666666;
+    font-size: 14px;
+}
+.row-2-col-2{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.row-2-col-2>div{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 16px;
+
+}
+.row-2-col-2>button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    background-color: #213b50;
+    margin-inline: 5px;
+}
+.row-2-col-3{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.row-2-col-3>a{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+}
+.row-3{
+    color: #666666;
+    font-size: 14px;
+    margin: 12px;
+    text-align: justify;
+}
+
+/* media queries */
+
+@media screen and (max-width: 991px){
+    .blink-it-navbar{
+        height: auto;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .search-bar{
+        width: 150px;
+    }
+    .search-bar>input{
+        width: 90px;
+    }
+    .my-hero-section>img {
+        display: none;
+    }
+    .my-scrollable-div{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .blink-it-navbar{
+        height: auto;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .search-bar>input{
+        width: 90px;
+    }
+    .my-hero-section>img {
+        display: none;
+    }
+    .my-scrollable-div{
+        margin-top: 20px;
+    }
+    .row-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .blink-it-navbar{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .search-bar>input{
+        width: 70px;
+    }
+    .blink-it-navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    .blink-it-navbar>button{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
